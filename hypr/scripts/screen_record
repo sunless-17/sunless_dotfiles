@@ -1,0 +1,19 @@
+#!/bin/bash
+#=============================================================#
+# title       : screen recording                              #
+# author      : sunless47                                     #
+# description : using wf-recorder to record the entire screen #
+#=============================================================#
+
+# time format
+dateTime=$(date +%Y-%m-%d_%R)
+
+
+# using wf-recorder for screen recording
+if pgrep wf-recorder; then
+  # stop recording
+  pkill wf-recorder
+else
+  # record screen
+  wf-recorder --file=$HOME/alchemy/darkness/watu/vids/$dateTime.mp4
+fi

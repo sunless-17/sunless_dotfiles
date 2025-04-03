@@ -1,0 +1,15 @@
+#!/bin/bash
+#====================================================================#
+# title       : screenshot                                           #
+# author      : sunless47                                            #
+# description : using grim and slurp to screenshot section of screen #
+#====================================================================#
+
+# time format
+dateTime=$(date +%Y-%m-%d_%R)
+
+# path location
+pics=$HOME/alchemy/darkness/watu/pics/$dateTime.png
+
+# screenshot
+grim -l 0 -t png -g "$(slurp)" $pics

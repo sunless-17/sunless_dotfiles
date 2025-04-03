@@ -14,4 +14,4 @@ set -o pipefail
 PROJECT=hello_clap
 
 # opening with helix
-cargo run --package $PROJECT
+cargo run --package $PROJECT -- -h

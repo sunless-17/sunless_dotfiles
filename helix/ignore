@@ -6,11 +6,11 @@
 target
 
 # undesired config directories
-aseprite
 btop
 dconf
 discordcanary
 Electron
+libresprite
 Google
 git
 github-copilot
