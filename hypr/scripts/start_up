@@ -7,11 +7,11 @@
 
 # sound
 pipewire 2> /dev/null &
+pipewire-pulse 2> /dev/null &
 wireplumber 2> /dev/null &
 
 # wallpaper
 wbg $HOME/stash/pics/sunless.png 2> /dev/null &
 
-# misc
-sudo rc-service NetworkManager stop 2> /dev/null &
-brightnessctl set 3% 2> /dev/null &
+# # misc
+# brightnessctl set 3% 2> /dev/null &

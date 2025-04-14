@@ -27,10 +27,10 @@ llm() {
 					 --interactive=true \
 					 --tty=true \
 					 ai \
-					 ollama run phi4-mini
-					 # ollama run deepseek-coder
-					 # ollama run tinydolphin
+					 ollama run deepseek-coder
 					 # ollama run deepseek-r1:1.5b
+					 # ollama run phi4-mini
+					 # ollama run tinydolphin
 }
 
 # execute function

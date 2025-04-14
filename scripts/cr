@@ -11,7 +11,7 @@ set -o nounset
 set -o pipefail
 
 # rust project
-PROJECT=hello_clap
+PROJECT=hot_dog
 
 # opening with helix
-cargo run --package $PROJECT -- -h
+cargo run --package $PROJECT
