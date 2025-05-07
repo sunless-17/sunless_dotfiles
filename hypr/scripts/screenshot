@@ -9,7 +9,7 @@
 dateTime=$(date +%Y-%m-%d_%R)
 
 # path location
-pics=$HOME/alchemy/darkness/watu/pics/$dateTime.png
+pics=$HOME/stash/watu/pics/$dateTime.png
 
 # screenshot
 grim -l 0 -t png -g "$(slurp)" $pics

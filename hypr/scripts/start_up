@@ -14,4 +14,4 @@ wireplumber 2> /dev/null &
 wbg $HOME/stash/pics/sunless.png 2> /dev/null &
 
 # # misc
-# brightnessctl set 3% 2> /dev/null &
+brightnessctl set 3% 2> /dev/null &

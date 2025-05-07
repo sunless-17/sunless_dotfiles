@@ -7,7 +7,7 @@ continue-comments = false
 end-of-line-diagnostics = "hint"
 
 [editor.statusline]
-left = ["mode", "file-name", "spinner"]
+left = ["file-name", "spinner"]
 right = ["diagnostics", "position-percentage"]
 
 [editor.cursor-shape]

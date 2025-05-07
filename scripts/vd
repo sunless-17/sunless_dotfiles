@@ -12,7 +12,9 @@ set -o pipefail
 
 # download with yt-dlp
 yt-dlp \
+		--quiet \
 		--progress \
+		--format "mp4" \
 		--format-sort "res:720" \
 		--embed-subs \
 		--embed-chapters \

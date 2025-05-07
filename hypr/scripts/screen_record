@@ -15,5 +15,5 @@ if pgrep wf-recorder; then
   pkill wf-recorder
 else
   # record screen
-  wf-recorder --file=$HOME/alchemy/darkness/watu/vids/$dateTime.mp4
+  wf-recorder --file=$HOME/stash/crit/$dateTime.mp4
 fi

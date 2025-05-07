@@ -21,14 +21,14 @@ sudo pacman \
         --nosave \
         --recursive
 
-# pacman builtin option for cleaning cache
-sudo pacman \
-        --sync \
-        --clean \
-        --clean
-
 # using paccache utility from pacman-contrib
 sudo paccache \
         --remove \
         --keep 0 \
         --uninstalled
+
+# pacman builtin option for cleaning cache
+sudo pacman \
+        --sync \
+        --clean \
+        --clean

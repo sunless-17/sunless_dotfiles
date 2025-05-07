@@ -35,6 +35,15 @@ rofi
 mimeapps.list
 QtProject.conf
 
+# unreadable files
+*.png
+*.jpeg
+*.gif
+*.svg
+*.ogg
+*.wav
+*.glsl
+
 # undesired rust project files
 Cargo.lock
 .gitignore

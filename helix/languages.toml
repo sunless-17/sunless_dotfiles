@@ -21,13 +21,6 @@ command = "clippy"
 [language-server.rust-analyzer.config.cargo]
 features = "all"
 
-# nix
-[[language]]
-name = "nix"
-auto-format = true
-indent = { tab-width = 2, unit = "  " }
-formatter = { command = "nixpkgs-fmt" }
-
 # python
 [[language]]
 name = "python"
@@ -83,7 +76,6 @@ indent = { tab-width = 2, unit = "  " }
 formatter = { command = "prettier", args = ["--parser", "json"] }
 language-servers = ["vscode-json-language-server"]
 
-
 # toml
 [[language]]
 name = "toml"
@@ -96,5 +88,4 @@ formatter = { command = "taplo", args = ["fmt", "-"] }
 name = "markdown"
 auto-format = true
 indent = { tab-width = 2, unit = "  " }
-formatter = { command = "dprint", args = ["fmt", "--stdin", "md"]}
-language-servers = ["vscode-markdown-language-server"]
+formatter = { command = "dprint", args = ["fmt", "--stdin", "md"] }

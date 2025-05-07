@@ -1,8 +1,6 @@
 export FZF_ALT_C_COMMAND="fd --type d --hidden --follow ."
 export EDITOR="helix"
-export JAVA_HOME=/opt/android-studio/jbr
-# export ANDROID_HOME="$HOME/Android/Sdk"
-# export NDK_HOME="$ANDROID_HOME/ndk/$(ls -1 $ANDROID_HOME/ndk)"
+export YTFZF_CONFIG_FILE="$HOME/.config/ytfzf/conf.sh"
 . "$HOME/.cargo/env"
 
 # path variable
