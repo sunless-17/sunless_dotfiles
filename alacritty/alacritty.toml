@@ -1,0 +1,17 @@
+[window]
+padding = { x = 3, y = 3 }
+opacity = 0.8
+[font]
+normal = { family = "HackNerdFontMono", style = "Regular" }
+size = 8.0
+[cursor]
+style = { shape = "underline", blinking = "never" }
+[terminal]
+shell = "/bin/zsh"
+[mouse]
+hide_when_typing = true
+[keyboard]
+bindings = [
+  { key = "PageUp", action = "ScrollLineUp" },
+  { key = "PageDown", action = "ScrollLineDown" },
+]
