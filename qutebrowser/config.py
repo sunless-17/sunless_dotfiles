@@ -8,3 +8,4 @@ c.zoom.default = "80%"
 c.url.start_pages = ["qute://bookmarks/"]
 c.downloads.location.directory = "/home/sunless/desires"
 c.downloads.remove_finished = 0
+c.fonts.web.family.standard = "HackNerdFontMono"

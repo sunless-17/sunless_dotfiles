@@ -18,4 +18,5 @@ yt-dlp \
 		--format-sort "res:720" \
 		--embed-subs \
 		--embed-chapters \
-		"$1"
+		"$1" \
+		> /dev/null
