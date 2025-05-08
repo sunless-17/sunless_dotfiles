@@ -5,6 +5,13 @@
 # description : all user configs located in .config #
 #===================================================#
 
-# wifi
-sudo wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/sunless.conf
-sudo dhcpcd wlan0
+# error handling (set -euo pipefail)
+set -o errexit
+set -o nounset
+set -o pipefail
+
+# opening with helix
+# $HOME/.config/helix/ignore deals with files i don't want to open
+ytfzf \
+--sort \
+$@
