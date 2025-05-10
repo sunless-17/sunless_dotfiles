@@ -21,11 +21,11 @@ sudo pacman \
         --nosave \
         --recursive
 
-# using paccache utility from pacman-contrib
-sudo paccache \
-        --remove \
-        --keep 0 \
-        --uninstalled
+# # using paccache utility from pacman-contrib
+# sudo paccache \
+#         --remove \
+#         --keep 0 \
+#         --uninstalled
 
 # pacman builtin option for cleaning cache
 sudo pacman \
