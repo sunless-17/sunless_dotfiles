@@ -3,6 +3,8 @@
 .cache
 .github
 .gitattributes
+*.clog
+*.manifest
 target
 
 # undesired config directories

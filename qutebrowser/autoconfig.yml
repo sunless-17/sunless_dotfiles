@@ -10,3 +10,5 @@ settings:
     https://github.com: access-paste
     https://ollama.com: access-paste
     https://starship.rs: access-paste
+  content.notifications.enabled:
+    https://thepiratebay.org: false
